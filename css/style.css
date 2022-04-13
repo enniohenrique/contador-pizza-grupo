@@ -1,0 +1,41 @@
+/*Zerando algumas config pré-definidas*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+    position: absolute; /*Alinhando ao centro da pagina*/
+    top: 50%;   /*Alinhando ao centro da pagina*/
+    left: 50%;  /*Alinhando ao centro da pagina*/
+    transform: translate(-50%,-50%);    /*Alinhando ao centro da pagina*/
+    width: 300px;
+    height: 500px;
+    border: 5px solid;
+}
+
+.titulo {
+    font-size: 13px;
+    padding: 10px;
+    background-color: orange;
+    border-bottom: 3px solid #000;
+}
+
+.titulo h1 {
+    font-weight: bold;
+}
+
+.add-participante {
+    margin-top: 390px;
+}
+
+.btn-add {
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid;
+    opacity: 0.8;
+}
