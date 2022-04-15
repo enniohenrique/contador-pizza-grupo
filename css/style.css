@@ -38,7 +38,6 @@
 .add-participante {
     display: flex;      /*Deixando a String "Add um participante" fique ao lado do botão de add*/
     border-top: 3px solid;
-    flex: 1;
 }
 
 #btn-add {
