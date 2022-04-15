@@ -40,13 +40,20 @@
     border-top: 3px solid;
 }
 
+input {
+    width: 300px;
+}
+
 #btn-add {
+
     padding: 10px;
     background-color: orange;
-    border-left: 1px solid;
+    border: 2px solid;
     cursor: pointer;
     color: #000;
-    font-size: 18px;
+    font-size: 10px;
+    border-radius: 10px;
+    margin: 5px 10px 5px 0px;
 }
 
 #listaElementos > li {
