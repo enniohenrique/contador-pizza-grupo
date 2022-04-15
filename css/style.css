@@ -62,6 +62,8 @@ input {
     border-radius: 15px;
     border: 1.5px solid;
     border-color:rgb(107, 106, 106);
-    font-size: 70px;
+    font-size: 20px;
     margin-bottom: 15px;
+    padding: 5px;
+    text-transform: capitalize;     /*Deixando a primeira letra de cada nome maiúscula*/
 }
