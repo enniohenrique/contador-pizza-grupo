@@ -32,10 +32,13 @@
 
 .add-participante {
     margin-top: 30px;
-    background-color: yellowgreen;
       /*Fazendo o botao de add participante ir para o fim do container*/
     display: flex;      /*Deixando a String "Add um participante" fique ao lado do botão de add*/
     border: 1px solid;
+}
+input {
+    border-radius: 0px;
+
 }
 
 #btn-add {
@@ -44,6 +47,7 @@
     border: 1px solid;
     opacity: 0.8;   /*Deixando o botao um pouco trasnparente*/
     cursor: pointer;
+    color: #000;
 }
 
 #listaElementos > li {
