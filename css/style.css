@@ -36,16 +36,10 @@
 }
 
 .add-participante {
-    margin-top: 30px;
-      /*Fazendo o botao de add participante ir para o fim do container*/
     display: flex;      /*Deixando a String "Add um participante" fique ao lado do botão de add*/
     border-top: 3px solid;
     flex: 1;
 }
-input {
-    border-radius: 0px;
-}
-
 
 #btn-add {
     padding: 10px;
@@ -63,4 +57,5 @@ input {
     border: 1.5px solid;
     border-color:rgb(107, 106, 106);
     font-size: 30px;
+    margin-bottom: 15px;
 }
