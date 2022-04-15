@@ -12,11 +12,11 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    position: absolute; /*Alinhando ao centro da pagina*/
-    top: 50%;   /*Alinhando ao centro da pagina*/
-    left: 50%;  /*Alinhando ao centro da pagina*/
+    position: absolute;     /*Alinhando ao centro da pagina*/
+    top: 50%;       /*Alinhando ao centro da pagina*/
+    left: 50%;      /*Alinhando ao centro da pagina*/
     transform: translate(-50%,-50%);    /*Alinhando ao centro da pagina*/
-    min-width: 18.75em;
+    min-width: 300px;
     border: 5px solid;
 }
 
@@ -57,6 +57,7 @@ input {
 }
 
 #listaElementos > li {
+    height: 50px;
     background-color: orange;
     margin: 15px 10px 0 10px;
     border-radius: 15px;
@@ -64,6 +65,6 @@ input {
     border-color:rgb(107, 106, 106);
     font-size: 20px;
     margin-bottom: 15px;
-    padding: 5px;
+    padding: 25px 5px 5px 5px;
     text-transform: capitalize;     /*Deixando a primeira letra de cada nome maiúscula*/
 }
