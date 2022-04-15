@@ -41,7 +41,8 @@
 }
 
 input {
-    width: 300px;
+    width: 230px;
+    font-size: 30px;
 }
 
 #btn-add {
