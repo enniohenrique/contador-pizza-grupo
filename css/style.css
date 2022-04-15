@@ -48,7 +48,7 @@ input {
     opacity: 0.8;   /*Deixando o botao um pouco trasnparente*/
     cursor: pointer;
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #listaElementos > li {
