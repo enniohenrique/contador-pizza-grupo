@@ -35,6 +35,7 @@
       /*Fazendo o botao de add participante ir para o fim do container*/
     display: flex;      /*Deixando a String "Add um participante" fique ao lado do botão de add*/
     border: 1px solid;
+    flex: 1;
 }
 input {
     border-radius: 0px;
