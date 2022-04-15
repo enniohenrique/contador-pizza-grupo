@@ -46,7 +46,6 @@ input {
     padding: 10px;
     background-color: orange;
     border-left: 1px solid;
-    opacity: 0.8;   /*Deixando o botao um pouco trasnparente*/
     cursor: pointer;
     color: #000;
     font-size: 18px;
@@ -54,7 +53,7 @@ input {
 
 #listaElementos > li {
     background-color: orange;
-    margin: 10px 10px 0 10px;
+    margin: 15px 10px 0 10px;
     border-radius: 15px;
     border: 1.5px solid;
     border-color:rgb(107, 106, 106);
