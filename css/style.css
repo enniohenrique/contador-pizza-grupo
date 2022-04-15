@@ -8,13 +8,14 @@
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     position: absolute; /*Alinhando ao centro da pagina*/
     top: 50%;   /*Alinhando ao centro da pagina*/
     left: 50%;  /*Alinhando ao centro da pagina*/
     transform: translate(-50%,-50%);    /*Alinhando ao centro da pagina*/
     width: 300px;
-    height: 500px;
     border: 5px solid;
 }
 
@@ -26,16 +27,30 @@
 }
 
 .titulo h1 {
-    font-weight: bold;
+    font-weight: bold;  /*Deixando o título em negrito*/
 }
 
 .add-participante {
-    margin-top: 390px;
+    margin-top: 30px;
+    background-color: yellowgreen;
+      /*Fazendo o botao de add participante ir para o fim do container*/
+    display: flex;      /*Deixando a String "Add um participante" fique ao lado do botão de add*/
+    border: 1px solid;
 }
 
-.btn-add {
+#btn-add {
     padding: 10px;
     background-color: orange;
-    border: 2px solid;
-    opacity: 0.8;
+    border: 1px solid;
+    opacity: 0.8;   /*Deixando o botao um pouco trasnparente*/
+    cursor: pointer;
+}
+
+#listaElementos > li {
+    background-color: orange;
+    margin: 10px 10px 0 10px;
+    border-radius: 15px;
+    border: 1.5px solid;
+    border-color:rgb(107, 106, 106);
+    font-size: 30px;
 }
