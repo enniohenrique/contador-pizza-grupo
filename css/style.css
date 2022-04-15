@@ -31,6 +31,10 @@
     font-weight: bold;  /*Deixando o título em negrito*/
 }
 
+.elementos {
+    min-height: 200px;
+}
+
 .add-participante {
     margin-top: 30px;
       /*Fazendo o botao de add participante ir para o fim do container*/
@@ -41,6 +45,7 @@
 input {
     border-radius: 0px;
 }
+
 
 #btn-add {
     padding: 10px;
