@@ -56,7 +56,7 @@ input {
     margin: 5px 10px 5px 0px;
 }
 
-#listaElementos > li {
+#listaElementos > div > ul{
     height: 50px;
     background-color: orange;
     margin: 15px 10px 0 10px;
@@ -67,4 +67,10 @@ input {
     margin-bottom: 15px;
     padding: 25px 5px 5px 5px;
     text-transform: capitalize;     /*Deixando a primeira letra de cada nome maiúscula*/
+}
+
+img {
+    width: 10px;
+    height: 5px;
+    background-color: #000;
 }
