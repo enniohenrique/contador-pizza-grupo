@@ -31,7 +31,7 @@
     font-weight: bold;  /*Deixando o título em negrito*/
 }
 
-.elementos {
+#listaElementos {
     min-height: 200px;
 }
 
@@ -56,7 +56,9 @@ input {
     margin: 5px 10px 5px 0px;
 }
 
-#listaElementos > div > ul{
+#listaElementos > div {
+    display: flex;
+    justify-content: space-around;
     height: 50px;
     background-color: orange;
     margin: 15px 10px 0 10px;
@@ -69,8 +71,21 @@ input {
     text-transform: capitalize;     /*Deixando a primeira letra de cada nome maiúscula*/
 }
 
-img {
-    width: 10px;
-    height: 5px;
-    background-color: #000;
+
+.btn-aumentar, .btn-diminuir {
+    justify-content: center;
+    background-color: aqua;
+    padding: 8px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 50%;
 }
+
+#display {
+    background-color: aliceblue;
+    height: 25px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
